@@ -1,0 +1,26 @@
+.searchContainer {
+  // background-color: beige;
+  width: 100%;
+  input {
+    padding: 15px;
+    width: 500px;
+    border-right: 0px;
+    border-color: #eee;
+    -webkit-appearance: none;
+    &:focus,
+    &:hover {
+      background-color: #fff;
+      outline: none;
+      + button {
+        background-color: peachpuff;
+      }
+    }
+  }
+  button {
+    padding: 17px;
+    background-color: peachpuff;
+    border-color: peachpuff;
+    border-left: none;
+    outline: none;
+  }
+}
